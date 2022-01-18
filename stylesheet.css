@@ -58,7 +58,6 @@ ul {
 .topnav a.active {
   background-color: #5c79e3;
   color: white;
-  font-family: ui-sans-serif;
 }
 
 .siteName {
