@@ -1,70 +1,29 @@
 <!DOCTYPE html>
 <head>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    }
-    h1 {
-      font-size: 10px;
-      padding: 10px;
-      border-radius: 4px;
-      border-color: rgba(79, 187, 230, 0.651);
-      text-align: center;
-    }
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .topnav {
-      overflow: hidden;
-      background-color: #333;
-      border-radius: 100px;
-    }
-
-    .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-
-    .topnav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-
-    .topnav a.active {
-      background-color: #65a2d4;
-      color: white;
-    }
-    sheet {
-      padding: 1;
-      display: block;
-      text-align: center;
-    }
-  </style>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <script type="text/javascript" src="functions.js"></script>
 </head>
 <body>
   <div class="topnav">
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a class="active" href="homework.html">Homework</a></li>
-      <li><a href="developers.html">Developers</a></li>
+      <li><a onclick="transitionToPage('index.html')">Home</a></li>
+      <li>
+        <a class="active" onclick="transitionToPage('homework.html')"
+          >Homework</a
+        >
+      </li>
+      <li><a onclick="transitionToPage('developers.html')">Developers</a></li>
     </ul>
   </div>
+
   <p align="center">
     <iframe
       class="sheet"
-      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTAZ6NTb_SYO07oSL7FNgbBODy6XGnVJfWp4BXdfQwf_GQ1lD5pfyk-pSpKuNJBTa4VcpyYuDkx7eBJ/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
-      height="400"
-      width="550"
+      src="https://docs.google.com/document/d/e/2PACX-1vSasq-TCMuzscfaVECaiNVb1nffzZDrJ850qKeDJ4cUPJZNn3Ni2HhlNLBH_DdIwgrgQiRVS8uQAkks/pub?embedded=true"
+      frameborder="0"
+      height="1200"
+      width="1000"
     ></iframe>
   </p>
 </body>
-<h1>p.s the google sheet will update every 5 minutes</h1>
+<h3>p.s the page will update every 5 minutes</h3>
