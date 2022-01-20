@@ -4,6 +4,7 @@ body {
   align-content: center;
   opacity: 0;
   transition: opacity 0.5s;
+  background-image: url("background.jpeg")
 }
 h1 {
   font-size: 40px;
